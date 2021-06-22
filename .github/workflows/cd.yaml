@@ -6,7 +6,7 @@ on:
 jobs:
   Dockerhub:
     env:
-      username: fmvida
+      username: franmvida
     runs-on: ubuntu-18.04
     steps:
       - name: checkout
