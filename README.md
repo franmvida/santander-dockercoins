@@ -1,5 +1,5 @@
 # santander-dockercoins
-
+```
 docker image build --file hasher/Dockerfile --tag index.docker.io/machacamoya/santander-dockercoins:test-hasher hasher/
 docker image build --file rng/Dockerfile --tag index.docker.io/machacamoya/santander-dockercoins:test-rng rng/
 docker image build --file webui/Dockerfile --tag index.docker.io/machacamoya/santander-dockercoins:test-webui webui/
