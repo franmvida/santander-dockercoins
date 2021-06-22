@@ -1,9 +1,2 @@
-FROM node
-RUN npm install redis
-RUN npm install express
-COPY webui.js .
-COPY files /files
-
-ENTRYPOINT ["node"]
-CMD ["webui.js"]
-#CMD node webui.js
+FROM index.docker.io/library/node:4-alpine@sha256:f0290c39e7cb55c6e08ff7c5dfae00f6bccb687624946f66692124d325fee823
+RUN npm install express && npm install redis
